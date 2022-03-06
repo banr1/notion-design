@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - "./:/app"
+    environment:
+      - TZ=JST-9
+    command: /bin/sh -c "while sleep 1000; do :; done"
