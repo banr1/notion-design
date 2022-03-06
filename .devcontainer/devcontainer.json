@@ -1,5 +1,5 @@
 {
-  "name": "Notion API Wrapper",
+  "name": "notion-design",
   "dockerComposeFile": [
     "../docker-compose.yml"
   ],
